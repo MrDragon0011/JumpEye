@@ -1,0 +1,4 @@
+ultralytics
+opencv-python-headless
+torch
+pydantic<2.11

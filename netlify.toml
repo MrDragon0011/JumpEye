@@ -1,0 +1,12 @@
+[build]
+  publish = "web"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "camera=(self)"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
